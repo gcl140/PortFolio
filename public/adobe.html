@@ -9,22 +9,25 @@
     <link rel="stylesheet" href="../styles/responsive.css">
     <link rel="shortcut icon" href="../images/gcl.ico" type="images/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../index.html" data-aos="fade-down" data-aos-duration="1600">
             <p>Home</p>
         </a>
-        <a href="../public/music.html">
+        <a href="../public/music.html" data-aos="fade-down" data-aos-duration="1400">
             <p>Music</p>
         </a>
-        <p><a href="../public/photography.html" id="skills-link">Photography</a></p>
-        <a href="../public/programming.html">
+        <a href="../public/photography.html" id="skills-link" data-aos="fade-down" data-aos-duration="1200">
+            <p>Photography</p>
+        </a>
+        <a href="../public/programming.html" data-aos="fade-down" data-aos-duration="1000">
             <p>Coding</p>
         </a>
     </header>
-
     <i class="fa-solid fa-bars" id="menu-icon"></i>
     <nav id="mobile-menu" class="mobile-menu">
         <a href="../index.html">Home</a>
@@ -32,53 +35,52 @@
         <a href="../public/photography.html" id="skills-link-mobile">Photography</a>
         <a href="../public/programming.html">Coding</a>
     </nav>
-    
-
-    <a href="#dearmamaa">
-        <section id="Gallery">
-            <p>WELCOME TO MY GALLERY 🎨</p>
-        </section>
-    </a>
-
-
+    <section id="Gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-mirror="true">
+        <a href="#dearmamaa">
+            <p data-aos="slide-left" data-aos-duration="800">WELCOME TO MY GALLERY 🎨</p>
+        </a>
+    </section>
     <a class="gallary" href="#miama">
-        <section id="dearmamaa">
-            <span>
+        <section id="dearmamaa" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-mirror="true">
+            <span data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
                 A charity inspired my moms' love, so to all the moms out there🥂!
             </span>
         </section>
     </a>
-
     <a class="gallary" href="#gcl">
-        <section id="miama">
-            <span>
-                He wanted, He granted
+        <section id="miama" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-mirror="true">
+            <span data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                Miama
             </span>
         </section>
     </a>
-
     <a class="gallary" href="#Gallery">
-        <section id="gcl">
-            <span>
+        <section id="gcl" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-mirror="true">
+            <span data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
                 REMEMBER THE NAME!
             </span>
-            <span>
-                <!-- What's my nameeeee?  --> You There,
-            </span>
         </section>
     </a>
-
-    <section id="gclo" style="flex-direction: column;">
+    <section id="gclo" style="flex-direction: column;" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-mirror="true">
         <p><b> Work Hard,</b></p>
         <p><b>Nobody Cares.</p>
     </section>
+
     <nav id="mobile-menu" class="mobile-menu">
         <a href="../index.html">Home</a>
         <a href="../public/aboutme.html">About Me</a>
         <a href="../public/skills.html" id="skills-link-mobile">Skills</a>
         <a href="../public/accolades.html">Accolades</a>
     </nav>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
     <script src="../scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

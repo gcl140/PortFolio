@@ -73,7 +73,7 @@ header p:hover {
     padding: 40px;
     padding-bottom: 20px;
     border-bottom: 2px solid #28a745;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out !important;
     cursor: pointer;
 }
 
@@ -82,13 +82,29 @@ header img {
     margin-right: 800px;
 }
 
-#Interested, #gclo, #fromafar, #Languages, #thestory, #skills {
+#Interested, #gclo, #fromafar, #Languages, #thestory, #skills, #moko {
     margin-bottom: 0em !important;
     padding-bottom: 0em !important;
 }
 
 #Hi, #Gift, #Interested {
     font-family: lovelo;
+
+}
+
+leg {
+    color: #6bdb85;
+    animation: animateee 5s linear infinite;
+}
+
+@keyframes animateee {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+leg:hover {
+    color: #836bdb;
 }
 
 #Giftstory, #thestory {
@@ -187,7 +203,7 @@ header img {
     border-radius: 20px;
 }
 
-.image-container p{
+.image-container p {
     display: none;
 }
 
@@ -224,7 +240,7 @@ section span {
 }
 
 #gcl {
-    background-image: url(https://siukokouu.netlify.app/images/design.png) !important;
+    background-image: url(https://siukokouu.netlify.app/images/Artboard%201.png) !important;
 }
 
 
@@ -247,6 +263,7 @@ section span {
 span #cat, #spidy, #broos {
     color: black !important;
 }
+
 #spidy {
     background-image: url(https://siukokouu.netlify.app/images/spider.jpg) !important;
 }
@@ -287,22 +304,33 @@ span #cat, #spidy, #broos {
     background-image: url(https://siukokouu.netlify.app/images/mwendokasi.jpg) !important;
 }
 
-#fromafar{
+#fromafar {
     background-image: url(https://siukokouu.netlify.app/images/fromafar.jpg) !important;
 }
 
 @keyframes glow {
-    0% { box-shadow: 0 0 5px #fff; }
-    50% { box-shadow: 0 0 20px #ff0; }
-    100% { box-shadow: 0 0 5px #fff; }
+    0% {
+        box-shadow: 0 0 5px #fff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #ff0;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #fff;
+    }
 }
 
 .glow {
     animation: glow 1s infinite alternate;
 }
 
-#moko{
+#moko {
     height: fit-content;
+    font-size: 2em;
+    flex-direction: column;
+    text-align: left;
 }
 
 .menu-icon {
@@ -326,6 +354,84 @@ span #cat, #spidy, #broos {
     padding: 10px 0;
 }
 
-.fa-bars{
+.fa-bars {
     font-size: 1.5em;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* #back-to-top p{
+    margin: 7px 0 0 0;
+} */
+
+#back-to-top i {
+    color: white;
+    font-size: 0.7cm;
+}
+
+#back-to-top.show {
+    opacity: 0.6;
+}
+
+#message {
+    height: 400px;
+    width: 400px;
+    font-family: inherit;
+    border-radius: 10px 10px;
+    line-height: 2em;
+    word-spacing: 0.1em;
+    text-align: start;
+    overflow-x: hidden;
+    padding: 10px;
+    background-color: rgb(188, 231, 231);
+    font-size: 0.7em;
+
+}
+
+#moko button {
+    font-family: inherit;
+    font-size: 0.5em;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#moko #left {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+#moko #pp {
+    display: flex;
+    flex-direction: column;
+}
+
+#moko #right {
+    padding-left: 50px;
+}
+
+#moko span {
+    font-family: inherit;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
 }

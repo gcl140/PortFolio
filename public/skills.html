@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/responsive.css">
     <link rel="shortcut icon" href="../images/gcl.ico" type="images/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../index.html" data-aos="fade-down" data-aos-duration="1600">
             <p>Home</p>
         </a>
-        <a href="../public/aboutme.html">
+        <a href="../public/aboutme.html" data-aos="fade-down" data-aos-duration="1400">
             <p>About Me</p>
         </a>
-        <p><a href="../public/skills.html" id="skills-link">Skills</a></p>
-        <a href="../public/accolades.html">
+        <a href="../public/skills.html" id="skills-link" data-aos="fade-down" data-aos-duration="1200"><p>Skills</p></a>
+        <a href="../public/accolades.html"data-aos="fade-down" data-aos-duration="1000" >
             <p>Accolades</p>
         </a>
     </header>
@@ -32,16 +33,16 @@
         <div class="first">
             <a href="adobe.html">
                 <div class="image-container">
-                    <img id="adobe" src="https://siukokouu.netlify.app/images/adobe%202.jpg" alt="">
-                    <p>ADOBE</p>
+                    <img id="adobe" src="https://siukokouu.netlify.app/images/adobe%202.jpg" alt="" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-mirror="true">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">ADOBE</p>
                     <div class="overlay">ADOBE</div>
                 </div>
             </a>
             <a href="music.html">
                 <div class="image-container">
-                    <img id="music" src="https://siukokouu.netlify.app/images/musica.jpeg" alt="">
+                    <img id="music" src="https://siukokouu.netlify.app/images/musica.jpeg" alt="" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-mirror="true">
                     <div class="overlay">MUSIC</div>
-                    <p>MUSIC</p>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">MUSIC</p>
 
                 </div>
             </a>
@@ -49,16 +50,16 @@
         <div class="second">
             <a href="photography.html">
                 <div class="image-container">
-                    <img id="photography" src="https://siukokouu.netlify.app/images/photography-icon-logo-symbol-vector-design_1605181.png" alt="">
-                    <p>P/GRAPHY</p>
+                    <img id="photography" src="https://siukokouu.netlify.app/images/photography-icon-logo-symbol-vector-design_1605181.png" alt="" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-mirror="true">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">P/GRAPHY</p>
 
                     <div class="overlay">PHOTOGRAPHY</div>
                 </div>
             </a>
             <a href="programming.html">
                 <div class="image-container">
-                    <img id="programing" src="https://siukokouu.netlify.app/images/programm.png" alt="">
-                    <p>coding</p>
+                    <img id="programing" src="https://siukokouu.netlify.app/images/programm.png" alt="" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-mirror="true">
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">Coding</p>
                     <div class="overlay">PROGRAMING</div>
                 </div>
             </a>
@@ -71,7 +72,14 @@
         <a href="../public/skills.html" id="skills-link-mobile">Skills</a>
         <a href="../public/accolades.html">Accolades</a>
     </nav>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
     <script src="../scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="../styles/responsive.css">
     <link rel="shortcut icon" href="../images/gcl.ico" type="images/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../index.html" data-aos="fade-down" data-aos-duration="1600">
             <p>Home</p>
         </a>
-        <a href="../public/aboutme.html">
+        <a href="../public/aboutme.html" data-aos="fade-down" data-aos-duration="1400">
             <p>About Me</p>
         </a>
-        <p><a href="../public/skills.html" id="skills-link">Skills</a></p>
-        <a href="../public/accolades.html">
+        <a href="../public/skills.html" id="skills-link" data-aos="fade-down" data-aos-duration="1200"><p>Skills</p></a>
+        <a href="../public/accolades.html" data-aos="fade-down" data-aos-duration="1000">
             <p>Accolades</p>
         </a>
     </header>
@@ -33,20 +35,20 @@
         <a href="../public/accolades.html">Accolades</a>
     </nav>
 
-    <section id="Hi">
-        <p>
-            <a href="#Giftstory"> SOME STORY ABOUT ME</a>
+    <section id="Hi" data-aos="zoom-in" data-aos-duration="1000">
+        <p data-aos="fade-right" data-aos-duration="1000">
+            <a href="#Giftstory" > SOME STORY ABOUT ME</a>
         </p>
     </section>
 
-    <section id="Giftstory">
-        <p>
+    <section id="Giftstory" data-aos="zoom-in" data-aos-duration="1000">
+        <p data-aos="fade-right" data-aos-duration="1000">
             <a href="#thestory"> ONCE UPON A TIME... </a>
         </p>
     </section>
 
-    <section id="thestory">
-        <div class="hi2">
+    <section id="thestory" data-aos="fade-down" data-aos-duration="1000">
+        <div class="hi2" data-aos="fade-down" data-aos-duration="1000">
             <b>Jackson:</b> Yo! Zawadi (Swahili for Gift)
             <br>
             <br>
@@ -129,7 +131,14 @@
         <a href="../public/skills.html" id="skills-link-mobile">Skills</a>
         <a href="../public/accolades.html">Accolades</a>
     </nav>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
     <script src="../scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

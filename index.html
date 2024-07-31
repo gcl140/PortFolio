@@ -7,41 +7,59 @@
     <title>GCL</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="images/gcl.ico" type="images/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <section id="Hi" data-aos="zoom-in" data-aos-duration="1000" data-aos-mirror="true">
+        <a href="#Gift" data-aos="fade-left" data-aos-duration="800" data-aos-delay="500"> Hi There!</a>
+        <div data-aos="fade-right"
+        data-aos-duration="800" style="width:10%;height:0;padding-bottom:100%;position:relative;" ><iframe  src="https://giphy.com/embed/dYx3YFq2OiVLIssQH9" width="100%" height="100%"
+                style="position:absolute;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    </section>
+    <section id="Gift" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true">
+        <a href="#Interested" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true" data-aos-mirror="true"> I'm <leg> Gift</leg></a>
+    </section>
+    <section id="Interested" data-aos="zoom-in" data-aos-duration="1000" data-aos-mirror="true">
+        <a href="#Hi" id="interested-link" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true"> Interested in knowing me?</a>
+        <div style="width:15%;height:0;padding-bottom:56%;position:relative;" data-aos="zoom-in-right"
+            data-aos-duration="1000" data-aos-mirror="true"><iframe src="https://giphy.com/embed/SJ5NWB6ljohWmFq80m" width="100%" height="100%"
+                style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    </section>
+
+
     <header>
         <a href="./index.html">
-            <p>Home</p>
+            <p data-aos="fade-down" data-aos-duration="1600">Home</p>
         </a>
         <a href="./public/aboutme.html">
-            <p>About Me</p>
+            <p data-aos="fade-down" data-aos-duration="1400">About Me</p>
         </a>
-        <p><a href="./public/skills.html" id="skills-link">Skills</a></p>
+        <a href="./public/skills.html" data-aos="fade-down" data-aos-duration="1200"><p id="skills-link">Skills</p></a>
+        </a>
         <a href="./public/accolades.html">
-            <p>Accolades</p>
+            <p data-aos="fade-down" data-aos-duration="1000">Accolades</p>
         </a>
     </header>
-
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
-    <section id="Hi">
-        <a href="#Gift"> Hi There!</a>
-    </section>
-    <section id="Gift">
-        <a href="#Interested"> I'm Gift</a>
-    </section>
-    <section id="Interested">
-        <a href="#Hi" id="interested-link"> Interested in knowing me?</a>
-    </section>
     <nav id="mobile-menu" class="mobile-menu">
         <a href="../index.html">Home</a>
         <a href="../public/aboutme.html">About Me</a>
         <a href="../public/skills.html" id="skills-link-mobile">Skills</a>
         <a href="../public/accolades.html">Accolades</a>
     </nav>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
     <script src="./scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
 </body>
 
 </html>

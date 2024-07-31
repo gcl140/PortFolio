@@ -93,3 +93,32 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 5000); // glow effect lasts for 5 seconds
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
+
+document.getElementById('sendSmsLink').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default action of the link
+
+    var phoneNumber = "+1234567890"; // Replace with the desired phone number
+    var message = document.getElementById('message').value;
+    var encodedMessage = encodeURIComponent(message);
+
+    var smsLink = "sms:" + phoneNumber + "?body=" + encodedMessage;
+    window.location.href = smsLink;
+});
+

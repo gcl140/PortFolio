@@ -9,18 +9,22 @@
     <link rel="stylesheet" href="../styles/responsive.css">
     <link rel="shortcut icon" href="../images/gcl.ico" type="images/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../index.html" data-aos="fade-down" data-aos-duration="1600">
             <p>Home</p>
         </a>
-        <a href="../public/adobe.html">
+        <a href="../public/adobe.html" data-aos="fade-down" data-aos-duration="1400">
             <p>Adobe</p>
         </a>
-        <p><a href="../public/music.html" id="skills-link">Music</a></p>
-        <a href="../public/programming.html">
+        <a href="../public/music.html" id="skills-link">
+            <p data-aos="fade-down" data-aos-duration="1200">Music</p>
+        </a>
+        <a href="../public/programming.html" data-aos="fade-down" data-aos-duration="1000">
             <p>Coding</p>
         </a>
     </header>
@@ -35,14 +39,14 @@
 
 
     <a href="#cat">
-        <section id="Shots">
-            <p>MY SHOTS 📸</p>
+        <section id="Shots" data-aos="zoom-out" data-aos-duration="1000">
+            <p data-aos="slide-right" data-aos-duration="1000">MY SHOTS 📸</p>
         </section>
     </a>
 
 
     <a class="gallary" href="#spidy">
-        <section id="cat">
+        <section id="cat"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Pussy Cat
             </span>
@@ -50,7 +54,7 @@
     </a>
 
     <a class="gallary" href="#chugga">
-        <section id="spidy">
+        <section id="spidy"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Red Handed
             </span>
@@ -58,7 +62,7 @@
     </a>
 
     <a class="gallary" href="#broos">
-        <section id="chugga">
+        <section id="chugga"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 DEAR MAMA
             </span>
@@ -66,7 +70,7 @@
     </a>
 
     <a class="gallary" href="#radioo">
-        <section id="broos">
+        <section id="broos"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Take Me Church!
             </span>
@@ -74,7 +78,7 @@
     </a>
 
     <a class="gallary" href="#flower">
-        <section id="radioo">
+        <section id="radioo"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Muziki Vitamini
             </span>
@@ -82,7 +86,7 @@
     </a>
 
     <a class="gallary" href="#twins">
-        <section id="flower">
+        <section id="flower"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Roses are red...
             </span>
@@ -90,7 +94,7 @@
     </a>
 
     <a class="gallary" href="#schoolkid">
-        <section id="twins">
+        <section id="twins"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Charity!
             </span>
@@ -98,7 +102,7 @@
     </a>
 
     <a class="gallary" href="#thelights">
-        <section id="schoolkid">
+        <section id="schoolkid"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Off to School
             </span>
@@ -106,7 +110,7 @@
     </a>
 
     <a class="gallary" href="#flower2">
-        <section id="thelights">
+        <section id="thelights"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 Turn The Lights ON!
             </span>
@@ -114,7 +118,7 @@
     </a>
 
     <a class="gallary" href="#mwendokasi">
-        <section id="flower2">
+        <section id="flower2"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 The Dew, right?
             </span>
@@ -122,7 +126,7 @@
     </a>
 
     <a class="gallary" href="#fromafar">
-        <section id="mwendokasi">
+        <section id="mwendokasi"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 A normal day in Dar
             </span>
@@ -130,7 +134,7 @@
     </a>
 
     <a class="gallary" href="#Shots">
-        <section id="fromafar">
+        <section id="fromafar"data-aos="fade-up" data-aos-duration="1200">
             <span>
                 The Sand!
             </span>
@@ -142,7 +146,14 @@
         <a href="../public/skills.html" id="skills-link-mobile">Skills</a>
         <a href="../public/accolades.html">Accolades</a>
     </nav>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
     <script src="../scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

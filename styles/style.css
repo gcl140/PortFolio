@@ -187,6 +187,10 @@ header img {
     border-radius: 20px;
 }
 
+.image-container p{
+    display: none;
+}
+
 .gallary p {
     display: flex;
     flex-direction: column;
@@ -295,6 +299,10 @@ span #cat, #spidy, #broos {
 
 .glow {
     animation: glow 1s infinite alternate;
+}
+
+#moko{
+    height: fit-content;
 }
 
 .menu-icon {

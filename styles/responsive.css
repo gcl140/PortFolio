@@ -26,6 +26,18 @@
         display: none;
     }
 
+    #moko p{
+        font-size: 22px;
+    }
+
+    #email, #phone, #youtube, #github, #instagram{
+        display: none;
+    }
+
+    #moko{
+        padding: 20px;
+    }
+
     .menu {
         display: flex;
         flex-direction: column;

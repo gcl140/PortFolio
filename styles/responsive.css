@@ -91,6 +91,7 @@
     }
 
     .image-container p {
+        display: block;
         font-family: tech;
     }
 

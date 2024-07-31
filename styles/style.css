@@ -23,7 +23,7 @@ html {
 
 body {
     font-family: messi;
-    background-image: url(../images/kbd.jpg);
+    background-image: url(https://siukokouu.netlify.app/images/kbd.jpg);
     background-position: center;
     color: white;
     padding: 40px;
@@ -216,15 +216,15 @@ section span {
 }
 
 #dearmamaa {
-    background-image: url(../images/charity.png) !important;
+    background-image: url(https://siukokouu.netlify.app/images/charity.png) !important;
 }
 
 #miama {
-    background-image: url(../images/design.png) !important;
+    background-image: url(https://siukokouu.netlify.app/images/design.png) !important;
 }
 
 #gcl {
-    background-image: url(../images/Artboard\ 1.png) !important;
+    background-image: url(https://siukokouu.netlify.app/images/design.png) !important;
 }
 
 
@@ -241,54 +241,54 @@ section span {
 }
 
 #cat {
-    background-image: url(../images/paka.jpeg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/paka.jpeg) !important;
 }
 
 span #cat, #spidy, #broos {
     color: black !important;
 }
 #spidy {
-    background-image: url(../images/spider.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/spider.jpg) !important;
 }
 
 #chugga {
-    background-image: url(../images/chugga.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/chugga.jpg) !important;
 }
 
 #broos {
-    background-image: url(../images/casfeta.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/chugga.jpg) !important;
 }
 
 #radioo {
-    background-image: url(../images/radio.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/radio.jpg) !important;
 }
 
 #flower {
-    background-image: url(../images/kunduz.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/kunduz.jpg) !important;
 }
 
 #twins {
-    background-image: url(../images/twins.JPG) !important;
+    background-image: url(https://siukokouu.netlify.app/images/twins.JPG) !important;
 }
 
 #schoolkid {
-    background-image: url(../images/schooling\ .jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/schooling\ .jpg) !important;
 }
 
 #flower2 {
-    background-image: url(../images/kunduz\ 2.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/kunduz\ 2.jpg) !important;
 }
 
 #thelights {
-    background-image: url(../images/thelights.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/thelights.jpg) !important;
 }
 
 #mwendokasi {
-    background-image: url(../images/mwendokasi.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/mwendokasi.jpg) !important;
 }
 
 #fromafar{
-    background-image: url(../images/fromafar.jpg) !important;
+    background-image: url(https://siukokouu.netlify.app/images/fromafar.jpg) !important;
 }
 
 @keyframes glow {

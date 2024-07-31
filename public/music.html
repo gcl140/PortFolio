@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="../styles/style-music.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
+    <link rel="stylesheet" href="../styles/responsive-music.css">
+    <link rel="shortcut icon" href="../images/gcl.ico" type="images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <p>Home</p>
+        </a>
+        <a href="../public/Adobe.html">
+            <p>Adobe</p>
+        </a>
+        <p><a href="../public/photography.html" id="skills-link">Photography</a></p>
+        <a href="../public/programming.html">
+            <p>coding</p>
+        </a>
+        </a>
+    </header>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h1>GCL arts</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <input type="text" placeholder="Search" class="search-bar">
+                </ul>
+                <h2>Library</h2>
+                <ul>
+                    <li><a href="#">Playlists</a></li>
+                    <li><a href="#">Artists</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <div class="playlist-header">
+                <img src="../images/musica.jpeg" alt="Playlist Image" class="playlist-image"
+                    style="border-radius: 10px;">
+                <div class="playlist-info">
+                    <h1>_officialGCL</h1>
+                    <p>Gfinity • 9 saves • 14 songs, over 24 hr</p>
+                </div>
+            </div>
+            <div class="playlist-controls">
+                <button class="play-button">PLAY</button>
+                <button class="more-options">...</button>
+            </div>
+            <h1>Now Playing</h1>
+            <ol class="song-list">
+                <li data-audio="audio1">Alan Walker & Ethic Entertainment - Lost Control X Pandana (GCL Remake)</li>
+                <li data-audio="audio2">Fave & Costa Titch - Scatta Scatta X Just Do It (GCL Amapiano Remake)</li>
+                <li data-audio="audio3">GCL - Ama 62</li>
+                <li data-audio="audio4">GCL - Ama X7 Plain</li>
+                <li data-audio="audio5">GCL - Contemplate 6 </li>
+                <li data-audio="audio6">GCL - FEEL</li>
+                <li data-audio="audio7">GCL - Ize 1</li>
+                <li data-audio="audio8">GCL - Latino 5</li>
+                <li data-audio="audio9">GCL - Project_1</li>
+                <li data-audio="audio10">GCL - Quillian 3</li>
+                <li data-audio="audio11">GCL - Sing (Official Audio)--tobecontinued</li>
+                <li data-audio="audio12">GCL - Trap 01 2</li>
+                <li data-audio="audio13">Mr Jazziq & Saint jHN - Monica Lewinksy X Wozza (GCL Remake)</li>
+                <li data-audio="audio14">Zara Larsson & Deep London - Symphony X Hamba Wena (GCL Amapiano Remake)</li>
+                <li data-audio="audio15">Zara Larsson & Deep London - Symphony X Hamba Wena (GCL Amapiano Remake)</li>
+            </ol>
+            <audio id="audio1" class="audio-file"
+                src="../assets/music/Alan Walker & Ethic Entertainment - Lost Control X Pandana (GCL Remake).mp3"
+                style="display: none;"></audio>
+            <audio id="audio2" class="audio-file"
+                src="../assets/music/Fave & Costa Titch - Scatta Scatta X Just Do It (GCL Amapiano Remake).mp3"
+                style="display: none;"></audio>
+            <audio id="audio3" class="audio-file" src="../assets/music/GCL - Ama 62.mp3" style="display: none;"></audio>
+            <audio id="audio4" class="audio-file" src="../assets/music/GCL - Ama X7 Plain.mp3"
+                style="display: none;"></audio>
+            <audio id="audio5" class="audio-file" src="../assets/music/GCL - Contemplate 6 .mp3"
+                style="display: none;"></audio>
+            <audio id="audio6" class="audio-file" src="../assets/music/GCL - FEEL.mp3" style="display: none;"></audio>
+            <audio id="audio7" class="audio-file" src="../assets/music/GCL - Ize 1.mp3" style="display: none;"></audio>
+            <audio id="audio8" class="audio-file" src="../assets/music/GCL - Latino 5.mp3"
+                style="display: none;"></audio>
+            <audio id="audio9" class="audio-file" src="../assets/music/GCL - Project_1.mp3"
+                style="display: none;"></audio>
+            <audio id="audio10" class="audio-file" src="../assets/music/GCL - Quillian 3.mp3"
+                style="display: none;"></audio>
+            <audio id="audio11" class="audio-file" src="../assets/music/GCL - Sing (Official Audio)--tobecontinued.mp3"
+                style="display: none;"></audio>
+            <audio id="audio12" class="audio-file" src="../assets/music/GCL - Trap 01 2.mp3"
+                style="display: none;"></audio>
+            <audio id="audio13" class="audio-file"
+                src="../assets/music/Mr Jazziq & Saint jHN - Monica Lewinksy X Wozza (GCL Remake).mp3"
+                style="display: none;"></audio>
+            <audio id="audio14" class="audio-file"
+                src="../assets/music/Zara Larsson & Deep London - Symphony X Hamba Wena (GCL Amapiano Remake).mp3"
+                style="display: none;"></audio>
+            <audio id="audio15" class="audio-file"
+                src="../assets/music/Zara Larsson & Deep London - Symphony X Hamba Wena (GCL Amapiano Remake).mp3"
+                style="display: none;"></audio>
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer-player">
+            <div>
+                <div id="now-playing">Not Playing</div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+                <div class="progress-dot"></div>
+            </div>
+            <div id="controlss">
+                <button id="shuffle-button"><i class="fa-solid fa-shuffle"></i></button>
+                <button id="prev-button"><i class="fa-solid fa-backward-step"></i></button>
+                <button id="play-pause-button"><i class="fa-solid fa-play"></i></button>
+                <button id="next-button"><i class="fa-solid fa-forward-step"></i></button>
+                <button id="repeat-button"><i class="fa-solid fa-repeat"></i></button>
+            </div>
+        </div>
+
+    </footer>
+    <script src="../scripts/scripts-music.js"></script>
+    <nav id="mobile-menu" class="mobile-menu">
+        <a href="../index.html">Home</a>
+        <a href="../public/adobe.html">Adobe</a>
+        <a href="../public/photography.html" id="skills-link-mobile">Photography</a>
+        <a href="../public/programming.html">Coding</a>
+    </nav>
+    <script src="../scripts/main.js"></script>
+
+</body>
+
+</html>

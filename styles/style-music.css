@@ -1,0 +1,272 @@
+@font-face {
+    font-family: messi;
+    src: url(../assets/MessinaSans-Light.ttf);
+}
+
+@font-face {
+    font-family: lovelo;
+    src: url(../assets/Spotyfied\ Me.ttf);
+}
+
+@font-face {
+    font-family: tech;
+    src: url(../assets/OriginTech\ personal\ use.otf);
+}
+
+body {
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #000;
+    padding: 20px;
+}
+
+.logo h1 {
+    color: #1db954;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px 40px 20px 40px;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.header button {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.playlist-header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.playlist-image {
+    width: 160px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.playlist-info h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.playlist-info p {
+    color: #b3b3b3;
+    margin: 5px 0 0;
+}
+
+.playlist-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.play-button {
+    background-color: #1db954;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.more-options {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.playlist-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.playlist-table th, .playlist-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.playlist-table th {
+    font-weight: normal;
+    color: #b3b3b3;
+}
+
+.footer-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-player button {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.song-list li {
+    height: 40px;
+    width: 100%;
+    /* border-bottom: 2px solid grey; */
+}
+
+.song-list {
+    /* list-style: none; */
+    padding: 0;
+    margin-top: 20px;
+}
+
+.song-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #3333334d;
+}
+
+.song-list li:hover {
+    background-color: #33333357;
+}
+
+.song-list li:active{
+    background-color: #33333373;
+}
+
+body{
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+}
+
+
+
+
+
+
+
+/* Add necessary styles for the player */
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.playlist-header {
+    display: flex;
+    align-items: center;
+}
+
+.playlist-image {
+    width: 150px;
+    height: 150px;
+}
+
+.playlist-info {
+    margin-left: 20px;
+}
+
+.playlist-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.playlist-controls button {
+    margin-right: 10px;
+}
+
+.song-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.song-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.footer-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.footer-player button {
+    margin: 0 10px;
+}

@@ -236,3 +236,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleElements = document.querySelectorAll('.toggleElement');
+  
+    toggleElements.forEach(element => {
+      element.addEventListener('click', () => {
+        if (element.style.backgroundColor === 'green') {
+          element.style.backgroundColor = '#333';
+        } else {
+          element.style.backgroundColor = 'green';
+        }
+      });
+    });
+  });
+  

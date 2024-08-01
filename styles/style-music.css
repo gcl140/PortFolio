@@ -300,3 +300,9 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.toggleElement {
+    background-color: lightgray;
+    background-color: #333;
+
+  }

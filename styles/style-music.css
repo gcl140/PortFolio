@@ -172,11 +172,9 @@ nav ul li a {
 .song-list li {
     height: 40px;
     width: 100%;
-    /* border-bottom: 2px solid grey; */
 }
 
 .song-list {
-    /* list-style: none; */
     padding: 0;
     margin-top: 20px;
 }
@@ -191,22 +189,15 @@ nav ul li a {
     background-color: #33333357;
 }
 
-.song-list li:active{
+.song-list li:active {
     background-color: #33333373;
 }
 
-body{
+body {
     padding-left: 0em !important;
     padding-right: 0em !important;
 }
 
-
-
-
-
-
-
-/* Add necessary styles for the player */
 .container {
     display: flex;
 }
@@ -305,4 +296,4 @@ body{
     background-color: lightgray;
     background-color: #333;
 
-  }
+}

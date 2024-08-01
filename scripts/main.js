@@ -1,5 +1,3 @@
-// scripts/main.js
-
 document.addEventListener('DOMContentLoaded', () => {
     const interestedLink = document.getElementById('interested-link');
     const skillsLink = document.getElementById('skills-link');
@@ -7,27 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     interestedLink.addEventListener('click', (event) => {
         event.preventDefault();
 
-        // Scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });
 
-        // Add glowing effect to skills link
         skillsLink.classList.add('glow');
 
-        // Remove the glowing effect after a certain period
         setTimeout(() => {
             skillsLink.classList.remove('glow');
-        }, 100000); // glow effect lasts for 7 seconds
+        }, 100000);
     });
 });
-
-
-
-
-
-
-
-
-// scripts/main.js
 
 document.addEventListener('DOMContentLoaded', () => {
     const interestedLink = document.getElementById('interested-link');
@@ -38,16 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
     interestedLink.addEventListener('click', (event) => {
         event.preventDefault();
 
-        // Scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });
 
-        // Add glowing effect to skills link
         skillsLink.classList.add('glow');
 
-        // Remove the glowing effect after a certain period
         setTimeout(() => {
             skillsLink.classList.remove('glow');
-        }, 5000); // glow effect lasts for 5 seconds
+        }, 5000);
     });
 
     menuIcon.addEventListener('click', () => {
@@ -61,11 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-
-
-// scripts/main.js
-
 document.addEventListener('DOMContentLoaded', () => {
     const menuIcon = document.getElementById('menu-icon');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -74,23 +52,19 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileMenu.classList.toggle('show');
     });
 
-    // Smooth scrolling for interested link and glowing effect
     const interestedLink = document.getElementById('interested-link');
     const skillsLink = document.getElementById('skills-link');
 
     interestedLink.addEventListener('click', (event) => {
         event.preventDefault();
 
-        // Scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });
 
-        // Add glowing effect to skills link
         skillsLink.classList.add('glow');
 
-        // Remove the glowing effect after a certain period
         setTimeout(() => {
             skillsLink.classList.remove('glow');
-        }, 5000); // glow effect lasts for 5 seconds
+        }, 5000);
     });
 });
 
@@ -111,10 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.getElementById('sendSmsLink').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default action of the link
+document.getElementById('sendSmsLink').addEventListener('click', function (event) {
+    event.preventDefault();
 
-    var phoneNumber = "+1234567890"; // Replace with the desired phone number
+    var phoneNumber = "+255758523353";
     var message = document.getElementById('message').value;
     var encodedMessage = encodeURIComponent(message);
 

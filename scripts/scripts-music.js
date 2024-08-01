@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const songListItems = document.querySelectorAll('.song-list li');
     const nowPlaying = document.getElementById('now-playing');
     const prevButton = document.getElementById('prev-button');
@@ -78,18 +78,18 @@ document.addEventListener('DOMContentLoaded', function() {
     nextButton.addEventListener('click', playNextSong);
     prevButton.addEventListener('click', playPrevSong);
 
-    shuffleButton.addEventListener('click', function() {
+    shuffleButton.addEventListener('click', function () {
         isShuffle = !isShuffle;
         shuffleButton.classList.toggle('active');
     });
 
-    repeatButton.addEventListener('click', function() {
+    repeatButton.addEventListener('click', function () {
         isRepeat = !isRepeat;
         repeatButton.classList.toggle('active');
     });
 
     audioFiles.forEach(audio => {
-        audio.addEventListener('ended', function() {
+        audio.addEventListener('ended', function () {
             if (isRepeat) {
                 audio.play();
             } else {
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     songListItems.forEach((item, index) => {
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function () {
             playSong(index);
         });
     });
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const songListItems = document.querySelectorAll('.song-list li');
     const nowPlaying = document.getElementById('now-playing');
     const prevButton = document.getElementById('prev-button');
@@ -145,7 +145,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         playPauseButton.innerHTML = '<i class="fa-solid fa-pause"></i>';
 
-        // Start updating the progress bar
         updateProgressBar();
     }
 
@@ -168,7 +167,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 isPlaying = true;
                 playPauseButton.innerHTML = '<i class="fa-solid fa-pause"></i>';
 
-                // Start updating the progress bar
                 updateProgressBar();
             }
         }
@@ -199,7 +197,6 @@ document.addEventListener('DOMContentLoaded', function() {
             progress.style.width = `${percentage}%`;
             progressDot.style.left = `${percentage}%`;
 
-            // Continue updating the progress bar if the song is playing
             if (!currentAudio.paused) {
                 requestAnimationFrame(updateProgressBar);
             }
@@ -210,18 +207,18 @@ document.addEventListener('DOMContentLoaded', function() {
     nextButton.addEventListener('click', playNextSong);
     prevButton.addEventListener('click', playPrevSong);
 
-    shuffleButton.addEventListener('click', function() {
+    shuffleButton.addEventListener('click', function () {
         isShuffle = !isShuffle;
         shuffleButton.classList.toggle('active');
     });
 
-    repeatButton.addEventListener('click', function() {
+    repeatButton.addEventListener('click', function () {
         isRepeat = !isRepeat;
         repeatButton.classList.toggle('active');
     });
 
     audioFiles.forEach(audio => {
-        audio.addEventListener('ended', function() {
+        audio.addEventListener('ended', function () {
             if (isRepeat) {
                 audio.play();
             } else {
@@ -231,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     songListItems.forEach((item, index) => {
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function () {
             playSong(index);
         });
     });
@@ -239,15 +236,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const toggleElements = document.querySelectorAll('.toggleElement');
-  
+
     toggleElements.forEach(element => {
-      element.addEventListener('click', () => {
-        if (element.style.backgroundColor === 'green') {
-          element.style.backgroundColor = '#333';
-        } else {
-          element.style.backgroundColor = 'green';
-        }
-      });
+        element.addEventListener('click', () => {
+            if (element.style.backgroundColor === 'green') {
+                element.style.backgroundColor = '#333';
+            } else {
+                element.style.backgroundColor = 'green';
+            }
+        });
     });
-  });
-  
+});

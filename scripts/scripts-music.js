@@ -239,10 +239,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toggleElements.forEach(element => {
         element.addEventListener('click', () => {
-            if (element.style.backgroundColor === '#1db954') {
+            if (element.style.backgroundColor === 'green') {
                 element.style.backgroundColor = '#333';
             } else {
-                element.style.backgroundColor = '#1db954';
+                element.style.backgroundColor = 'green';
             }
         });
     });
